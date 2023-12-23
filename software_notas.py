@@ -40,3 +40,14 @@ else:
 
 resultado = nota_final(nota_original, recuperacion)
 print(resultado)
+
+
+
+# software de notas del 0 al 5.0
+# si la nota es 0 hasta 0.9 definitivamente perdió sin derecho a recuperar
+# si la nota es 1.0 hasta 2.5 perdió pero puede recuperar, si en la recuperación saca 5.0 la nota final queda en 3.0
+# si la nota es 2.6 hasta 2.9 puede recuperar  si en la recuperación saca 5.0 la nota final queda en 3.5
+# si la nota es 3.0 hasta 3.5 pero es de recuperación la nota es aceptable
+# si la nota es 3.0 hasta 3.9 la nota final es aceptable sigue mejorando
+# si la nota es 4.0 hasta 4.5 excelente vas por buen camino
+# si la nota es 4.5 hasta 5.0 científico tienes un gran futuro por delante 
